@@ -1,0 +1,157 @@
+body {
+        font-family: helvetica;
+        background-color: #ffffea;
+        margin: 0;
+        padding: 0;
+        /*background-image: url(background.jpg);
+        background-repeat:no-repeat;
+        background-position: center;*/
+}
+
+#wrap{
+    width:70%;
+    margin: 0 auto;
+    /*0 refers to no margin at top or bottom*/
+}
+
+header img {
+    width:75%;
+    margin:0 auto;
+}
+
+header{
+    background-color:white;
+    text-align: center;
+    background-image: url(background.jpg);
+        background-repeat:no-repeat;
+        background-position: center;
+    
+    
+}
+
+h3 {
+    text-align: center;
+    font-size:50px;
+    font-family: monospace;
+    font-family: 'Bungee Shade', cursive;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    text-size: 20px;
+    font-family: cursive;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    padding:5px 15px;
+}
+
+nav a:hover {
+    color: navajowhite;
+    background-color: black;
+    
+}
+
+nav li {
+        display: inline;
+        padding: 10px;
+        /*padding 20px*/
+}
+
+nav ul {
+        padding: 0;
+        margin 0;
+}
+
+section {
+    padding: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-color: orange;
+    background-color:#ffffff;
+    overflow:auto;   
+    
+}
+
+.information {
+    width: 70%; 
+	margin: 0 auto;
+    background: white;
+    padding-top: 5px;
+}
+
+.bgpic {
+    width:50%;
+    float: right;
+    position:relative;
+   
+    
+}
+
+.cbpic {
+    width:50%;
+    float: right;
+    position: relative;
+   
+    
+}
+.button {
+    
+     background-color:#edd087;
+     color:white;
+     text-decoration: none;
+    padding:10px;
+    border-radius:8px;
+    margin:15px 0;
+     
+    }    
+
+a.button:hover {
+        background-color:#edd087;
+    }
+
+.form {position:relative;
+    left: 250px;
+    bottom:190px;
+    top:10px;
+
+}
+    
+.historyvid {
+    position: relative;
+    left: 60px;
+
+}
+
+.telepin {
+   float:left;
+    padding-right:10px;
+}
+
+.socialtext {
+    text-align: center;
+}
+
+.telepinterest {
+    width:75%;
+    position:relative;
+    left:135px;
+    
+}
+
+.facebook {
+    position: relative;
+    float: right;
+    
+}
+
+footer {
+    background-color:black;
+    color:white;
+    padding: 10px;
+    text-align: center
+}
